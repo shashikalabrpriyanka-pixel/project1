@@ -53,14 +53,14 @@ public class Sample1 {
 //				
 						
 			     
-//			     delete
-//			     CallableStatement cs2=c.prepareCall("{call delete_emp(?)}");
-//			     System.out.println("enter id");
-//			     int id3=sc.nextInt();
-//			     cs2.setInt(1, id3);
-//			     
-//			     cs2.execute();
-//			     System.out.println("deleted");
+//\			     delete
+			     CallableStatement cs2=c.prepareCall("{call delete_emp(?)}");
+			     System.out.println("enter id");
+			     int id3=sc.nextInt();
+			     cs2.setInt(1, id3);
+			     
+			     cs2.execute();
+			     System.out.println("deleted");
 			     
 //			     fetch
 			     
